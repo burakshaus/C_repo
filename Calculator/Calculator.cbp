@@ -31,10 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="CalculatorGtk.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="GUICalc.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="builder.ui.xml" />
 		<Unit filename="example-2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example-3.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
